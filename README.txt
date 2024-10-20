@@ -1,0 +1,8 @@
+"Email-Analysis" 
+
+Continuous Email Scanning Code
+This Python script is designed to scan emails from a Gmail account for malicious content, focusing mainly on URLs. Using the imaplib and email libraries, it connects to the inbox, retrieves unread emails, and then extracts the URLs present in each message. For each URL, it performs a check using the VirusTotal and URLhaus APIs to assess their safety. If suspicious URLs are detected, the email is moved to a quarantine label for further analysis. In addition, a report detailing the scan is generated and saved to a file, allowing for traceability of potential threats. This script is an effective solution to enhance the security of email communications.
+
+
+Interactive Email Scanning code :
+This Python script enhances email scanning by adding a user interaction, allowing to choose between scanning unread emails or a specified number of emails in the inbox. It connects to the Gmail account via IMAP and extracts messages according to the user's choice. For each email, the script extracts the body of the message and checks the URLs present using the VirusTotal and URLhaus APIs. If suspicious content is detected, the email is moved to a quarantine, and an analysis report is generated and saved. Thanks to its interactive interface, this script is suitable for users wishing a targeted analysis of their emails, thus reinforcing the security of electronic exchanges.
